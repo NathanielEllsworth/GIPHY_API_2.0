@@ -101,7 +101,7 @@ var defaultGiphySearches = [
  */
 
 function getApiUrl() {
-    return "http://api.giphy.com/v1/gifs/search";
+    return "https://api.giphy.com/v1/gifs/search";
 }
 
 
@@ -218,7 +218,7 @@ function main() {
 
 
         }else {                                   // Hide the animated image and show and place holder image to indicate an error
-            $(this).attr("src", "http://via.placeholder.com/350x150");
+            $(this).attr("src", "https://via.placeholder.com/350x150");
 
 
 
